@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Furry Test</title>
+		<link rel="stylesheet" type="text/css" href="styles/my_style.css">
+		<script src="scripts/jquery-1.6.2.min.js"></script>
+	</head>
+	<body>
+		<div id="clickMe">
+			Show  me the picture of the day
+		</div>
+		<div id="picFrame">
+			<img src="images/furry_friend.jpg">
+		</div>
+		<script>
+			$(document).ready(function () {
+				$("#clickMe").click(function ()
+				{
+				    $("#picFrame").slideToggle();
+                });
+            });
+		</script>
+
+	</body>
+</html>
