@@ -27,3 +27,12 @@ div{
 .no_discount{
 	border: solid 3px #cd0a0a;
 }
+#random_test{
+	width: 61.50%;
+	height: 200px;
+	text-align: center;
+	font-family: 'Trebuchet MS', Verdana, Helvetica, Arial, sans-serif;
+	color: #cd0a0a;
+	padding: 5px;
+	border: solid 3px #0000ff;
+}
