@@ -1,3 +1,44 @@
-body{
-	
+.menu_wrapper{
+    width: 96%;
+    border: 1px solid gray;
+}
+.topper{
+    height: 90px;
+    padding: 2%;
+    overflow: hidden;
+    border-bottom: 1px solid gray;
+}
+.leftColumn{
+    float: left;
+    width: 41%;
+    padding: 4%;
+    height: 1000px;
+    border-right: 1px solid gray;
+
+}
+.rightColumn{
+    float: right;
+    width: 41%;
+    height: 1000px;
+    padding: 4%;
+    border-left: 1px solid gray;
+}
+.bottom{
+    clear:both;
+    padding: 2%;
+    width: 96%;
+    height: 60px;
+    border-top: 1px solid gray;
+}
+
+
+.menu_entress li{
+    list-style: none;
+    padding-bottom: 15px;
+}
+
+.menu_list li{
+    list-style: none;
+    display: inline;
+    padding: 5px;
 }
