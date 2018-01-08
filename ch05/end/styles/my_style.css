@@ -47,7 +47,7 @@ p{
 }
 
 #pic_box{
-	position:relative; 
+	position:absolute;
 	left:91px; 
 	top:84px; 
 	width:367px; 

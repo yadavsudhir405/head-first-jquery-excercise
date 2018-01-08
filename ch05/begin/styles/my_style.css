@@ -1,11 +1,35 @@
-
-
-.my-div{
+body{
+    background-color: #111111;
+}
+#top{
     position: absolute;
-    left:25%;
-    width: 40%;
-    padding: 10px;
-    text-align: center;
-    background-color: #5c5c5c;
-    border: 2px solid #000000;
+    left: 200px;
+    color: lime;
+    margin: 10px;
+    z-index: 4;
+}
+#container{
+    position: absolute;
+    z-index: 0;
+    left: 0px;
+    top:0px;
+}
+#frame {
+    position:absolute;
+    left:100px;
+    top:100px;
+    width:1000px;
+    height:629px;
+    background-image:url(../images/frame.png);
+    z-index: 3;
+    overflow: hidden;
+}
+#pic_box{
+    position:relative;
+    left:91px;
+    top:84px;
+    width:1000px;
+    height:460px;
+    z-index: 2;
+    overflow: hidden;
 }
